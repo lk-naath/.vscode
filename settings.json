@@ -1,7 +1,10 @@
 {
-    "extensions.autoUpdate": false,
-    "extensions.autoCheckUpdates": false,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
     "extensions.ignoreRecommendations": true,
+    "workbench.panel.defaultLocation": "left",
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
     "python.analysis.extraPaths": [
         // "/home/vryno/ti/vryno/voworkflow",
         // "/home/vryno/ti/vryno/voaccounts",
@@ -14,8 +17,6 @@
     "python.testing.pytestArgs": [
         "voaccounts"
     ],
-    "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true,
     "python.testing.unittestArgs": [
         "-v",
         "-s",
