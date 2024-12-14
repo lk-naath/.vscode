@@ -5,6 +5,7 @@
     "workbench.panel.defaultLocation": "right",
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
+    "editor.accessibilitySupport": "off",
     "python.analysis.extraPaths": [
         // "/home/vryno/ti/vryno/voworkflow",
         // "/home/vryno/ti/vryno/voaccounts",
