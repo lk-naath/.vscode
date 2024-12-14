@@ -2,7 +2,7 @@
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
     "extensions.ignoreRecommendations": true,
-    "workbench.panel.defaultLocation": "left",
+    "workbench.panel.defaultLocation": "right",
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.analysis.extraPaths": [
