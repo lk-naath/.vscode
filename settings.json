@@ -8,7 +8,6 @@
         "/home/vryno/ti/vryno/vocore",
         // "/home/vryno/ti/vryno/vocrm"
     ],
-    "python.formatting.provider": "black",
     "python.testing.pytestArgs": [
         "voaccounts"
     ],
