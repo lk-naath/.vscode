@@ -1,4 +1,7 @@
 {
+    "extensions.autoUpdate": true,
+    "extensions.autoCheckUpdates": true,
+    "extensions.ignoreRecommendations": false,
     "python.analysis.extraPaths": [
         // "/home/vryno/ti/vryno/voworkflow",
         // "/home/vryno/ti/vryno/voaccounts",
