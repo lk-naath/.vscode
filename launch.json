@@ -1,0 +1,263 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "lookup",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "seed_data.load_lookup",
+            "cwd": "/home/vryno/ti/vryno/vocrm",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+            "envFile": "/home/vryno/.env",
+            "autoReload": {"enable": true},
+        },
+        {
+            "name": "admin",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "gq.admin_generate_schema",
+            "cwd": "/home/vryno/ti/vryno/voadmin",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+            "envFile": "/home/vryno/.env",
+            "autoReload": {"enable": true}
+        },
+        {
+            "name": "schema",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "gq.crm_generate_schema",
+            "cwd": "/home/vryno/ti/vryno/vocrm",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+            "envFile": "/home/vryno/.env",
+            "args": ["86d4f163-5eaf-4a92-a07f-ef220f6ded4f"],
+            "autoReload": {"enable": true}
+        },
+        {
+            "name": "accounts",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "cwd": "/home/vryno/ti/vryno/voaccounts",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+            "envFile": "/home/vryno/.env",
+            "autoReload": {"enable": true}
+        },
+        {
+            "name": "accounts bg",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "cwd": "/home/vryno/ti/vryno/voaccounts",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+            "envFile": "/home/vryno/.env",
+            "autoReload": {"enable": true},
+            "env": {
+                "KAFKA_CONSUMER_TOPIC": "accounts-in",
+                "KAFKA_PRODUCER_TOPIC": "accounts-out"
+            }
+        },
+        {
+            "type": "debugpy",
+            "module": "celery",
+            "name": "accounts celery",
+            "request": "launch",
+            "justMyCode": false,
+            "console": "integratedTerminal",
+            "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+            "cwd": "/home/vryno/ti/vryno/voaccounts",
+            "args": ["-A", "celery_tasks.accounts_tasks", "worker"],
+            "autoReload": {"enable": true},
+            "envFile": "/home/vryno/.env"
+        },
+        {
+            "name": "crm",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "cwd": "/home/vryno/ti/vryno/vocrm",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+            "autoReload": {"enable": true},
+            "envFile": "/home/vryno/.env"
+        },
+        {
+            "name": "crm bg",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "cwd": "/home/vryno/ti/vryno/vocrm",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+            "autoReload": {"enable": true},
+            "envFile": "/home/vryno/.env",
+            "env": {
+                "KAFKA_CONSUMER_TOPIC": "crm-in",
+                "KAFKA_PRODUCER_TOPIC": "crm-out"
+            }
+        },
+        {
+            "type": "debugpy",
+            "module": "celery",
+            "name": "crm celery",
+            "request": "launch",
+            "justMyCode": false,
+            "console": "integratedTerminal",
+            "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+            "cwd": "/home/vryno/ti/vryno/vocrm",
+            "args": ["-A", "celery_tasks.crm_tasks", "worker"],
+            "autoReload": {"enable": true},
+            "envFile": "/home/vryno/.env"
+        },
+        {
+            "type": "debugpy",
+            "name": "workflow",
+            "request": "launch",
+            "justMyCode": false,
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+            "cwd": "/home/vryno/ti/vryno/voworkflow",
+            "autoReload": {"enable": true},
+            "envFile": "/home/vryno/.env"
+        },
+        {
+            "type": "debugpy",
+            "name": "workflow bg",
+            "request": "launch",
+            "justMyCode": false,
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+            "cwd": "/home/vryno/ti/vryno/voworkflow",
+            "envFile": "/home/vryno/.env",
+            "env": {
+                "KAFKA_CONSUMER_TOPIC": "workflow-in",
+                "KAFKA_PRODUCER_TOPIC": "workflow-out"
+            }
+        },
+        {
+            "type": "debugpy",
+            "module": "celery",
+            "name": "workflow celery",
+            "request": "launch",
+            "justMyCode": false,
+            "console": "integratedTerminal",
+            "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+            "cwd": "/home/vryno/ti/vryno/voworkflow",
+            "args": ["-A", "celery_tasks.workflow_tasks", "worker"],
+            "envFile": "/home/vryno/.env"
+        },
+        {
+            "type": "debugpy",
+            "name": "notify",
+            "request": "launch",
+            "justMyCode": false,
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+            "cwd": "/home/vryno/ti/vryno/vonotify",
+            "autoReload": {"enable": true},
+            "envFile": "/home/vryno/.env"
+        },
+        {
+            "type": "debugpy",
+            "name": "notify bg",
+            "request": "launch",
+            "justMyCode": false,
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+            "cwd": "/home/vryno/ti/vryno/vonotify",
+            "envFile": "/home/vryno/.env",
+            "env": {
+                "KAFKA_CONSUMER_TOPIC": "notify-in",
+                "KAFKA_PRODUCER_TOPIC": "notify-out"
+            }
+        },
+        {
+            "type": "debugpy",
+            "name": "search",
+            "request": "launch",
+            "justMyCode": false,
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+            "cwd": "/home/vryno/ti/vryno/vosearch",
+            "autoReload": {"enable": true},
+            "envFile": "/home/vryno/.env"
+        },
+        {
+            "type": "debugpy",
+            "name": "search bg",
+            "request": "launch",
+            "justMyCode": false,
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+            "cwd": "/home/vryno/ti/vryno/vosearch",
+            "envFile": "/home/vryno/.env",
+            "env": {
+                "KAFKA_CONSUMER_TOPIC": "search-in",
+                "KAFKA_PRODUCER_TOPIC": "search-out"
+            }
+        },
+        {
+            "type": "debugpy",
+            "module": "celery",
+            "name": "notify celery",
+            "request": "launch",
+            "justMyCode": false,
+            "console": "integratedTerminal",
+            "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+            "cwd": "/home/vryno/ti/vryno/vonotify",
+            "args": ["-A", "celery_tasks.notify_tasks", "worker"],
+            "autoReload": {"enable": true},
+            "envFile": "/home/vryno/.env"
+        },
+        {
+            "type": "debugpy",
+            "name": "gateway",
+            "program": "main.py",
+            "request": "launch",
+            "justMyCode": false,
+            "console": "integratedTerminal",
+            "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+            "cwd": "/home/vryno/ti/vryno/vogateway",
+            "autoReload": {"enable": true},
+            "envFile": "/home/vryno/.env",
+            "env": {"PORT": "8000"}
+        },
+        {
+            "type": "debugpy",
+            "name": "gateway api",
+            "program": "main.py",
+            "request": "launch",
+            "justMyCode": false,
+            "console": "integratedTerminal",
+            "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+            "cwd": "/home/vryno/ti/vryno/vogateway",
+            "autoReload": {"enable": true},
+            "envFile": "/home/vryno/.env",
+            "env": {"PORT": "9000", "IS_BACKGROUND_SERVICE": "true"}
+        },
+    ],
+    // "compounds": [
+    //     {
+    //         "name": "crm celery",
+    //         "configurations": ["crm beat", "crm worker"],
+    //         "cwd": "/home/vryno/ti/vryno/vocrm",
+    //     }
+    // ],
+}
