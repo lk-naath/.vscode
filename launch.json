@@ -10,8 +10,7 @@
             "console": "integratedTerminal",
             "justMyCode": false,
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
-            "envFile": "/home/vryno/.env",
-            "autoReload": {"enable": true},
+            "envFile": "/home/vryno/.env"
         },
         {
             "name": "admin",
@@ -22,8 +21,7 @@
             "console": "integratedTerminal",
             "justMyCode": false,
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
-            "envFile": "/home/vryno/.env",
-            "autoReload": {"enable": true}
+            "envFile": "/home/vryno/.env"
         },
         {
             "name": "schema",
@@ -35,8 +33,7 @@
             "justMyCode": false,
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
             "envFile": "/home/vryno/.env",
-            "args": ["86d4f163-5eaf-4a92-a07f-ef220f6ded4f"],
-            "autoReload": {"enable": true}
+            "args": ["86d4f163-5eaf-4a92-a07f-ef220f6ded4f"]
         },
         {
             "name": "accounts",
@@ -47,8 +44,7 @@
             "console": "integratedTerminal",
             "justMyCode": false,
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
-            "envFile": "/home/vryno/.env",
-            "autoReload": {"enable": true}
+            "envFile": "/home/vryno/.env"
         },
         {
             "name": "accounts bg",
@@ -60,7 +56,6 @@
             "justMyCode": false,
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
             "envFile": "/home/vryno/.env",
-            "autoReload": {"enable": true},
             "env": {
                 "KAFKA_CONSUMER_TOPIC": "accounts-in",
                 "KAFKA_PRODUCER_TOPIC": "accounts-out"
@@ -76,7 +71,6 @@
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
             "cwd": "/home/vryno/ti/vryno/voaccounts",
             "args": ["-A", "celery_tasks.accounts_tasks", "worker"],
-            "autoReload": {"enable": true},
             "envFile": "/home/vryno/.env"
         },
         {
@@ -88,7 +82,6 @@
             "console": "integratedTerminal",
             "justMyCode": false,
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
-            "autoReload": {"enable": true},
             "envFile": "/home/vryno/.env"
         },
         {
@@ -100,7 +93,6 @@
             "console": "integratedTerminal",
             "justMyCode": false,
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
-            "autoReload": {"enable": true},
             "envFile": "/home/vryno/.env",
             "env": {
                 "KAFKA_CONSUMER_TOPIC": "crm-in",
@@ -117,7 +109,6 @@
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
             "cwd": "/home/vryno/ti/vryno/vocrm",
             "args": ["-A", "celery_tasks.crm_tasks", "worker"],
-            "autoReload": {"enable": true},
             "envFile": "/home/vryno/.env"
         },
         {
@@ -129,7 +120,6 @@
             "console": "integratedTerminal",
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
             "cwd": "/home/vryno/ti/vryno/voworkflow",
-            "autoReload": {"enable": true},
             "envFile": "/home/vryno/.env"
         },
         {
@@ -168,7 +158,6 @@
             "console": "integratedTerminal",
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
             "cwd": "/home/vryno/ti/vryno/vonotify",
-            "autoReload": {"enable": true},
             "envFile": "/home/vryno/.env"
         },
         {
@@ -195,7 +184,6 @@
             "console": "integratedTerminal",
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
             "cwd": "/home/vryno/ti/vryno/vosearch",
-            "autoReload": {"enable": true},
             "envFile": "/home/vryno/.env"
         },
         {
@@ -223,7 +211,6 @@
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
             "cwd": "/home/vryno/ti/vryno/vonotify",
             "args": ["-A", "celery_tasks.notify_tasks", "worker"],
-            "autoReload": {"enable": true},
             "envFile": "/home/vryno/.env"
         },
         {
@@ -235,7 +222,6 @@
             "console": "integratedTerminal",
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
             "cwd": "/home/vryno/ti/vryno/vogateway",
-            "autoReload": {"enable": true},
             "envFile": "/home/vryno/.env",
             "env": {"PORT": "8000"}
         },
@@ -248,7 +234,6 @@
             "console": "integratedTerminal",
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
             "cwd": "/home/vryno/ti/vryno/vogateway",
-            "autoReload": {"enable": true},
             "envFile": "/home/vryno/.env",
             "env": {"PORT": "9000", "IS_BACKGROUND_SERVICE": "true"}
         },
