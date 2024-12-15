@@ -31,10 +31,18 @@
     "explorer.compactFolders": false,
     "terminal.integrated.tabs.enabled": false,
     "workbench.statusBar.visible": false,
+    "editor.tabSize": 4,
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": true,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideActivityBar": true,
+    "zenMode.hideStatusBar": true,
+    "zenMode.showTabs": "none",
+    "zenMode.silentNotifications": true,
+    "zenMode.restore": false,
     "workbench.colorCustomizations": {
         "terminal.border": "#546E7A"
     },
-    "editor.tabSize": 4,
     // files settings
     "files.exclude": {
         "**/.git": true,
