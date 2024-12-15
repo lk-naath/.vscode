@@ -1,4 +1,7 @@
 {
+    // global settings
+    "workbench.editor.showTabs": "none",
+    "workbench.editor.editorActionsLocation": "hidden",
     "workbench.colorTheme": "Material Theme",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.layoutControl.enabled": false,
@@ -11,6 +14,25 @@
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "editor.accessibilitySupport": "off",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "editor.minimap.enabled": true,
+    "editor.guides.indentation": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderLineHighlight": "none",
+    "editor.showFoldingControls": "never",
+    "editor.scrollbar.horizontalScrollbarSize": 1,
+    "editor.scrollbar.verticalScrollbarSize": 1,
+    "editor.hideCursorInOverviewRuler": false,
+    "editor.overviewRulerBorder": true,
+    "editor.detectIndentation": false,
+    "explorer.compactFolders": false,
+    "terminal.integrated.tabs.enabled": false,
+    "workbench.statusBar.visible": false,
+    "editor.tabSize": 4,
+    // files settings
     "files.exclude": {
         "**/.git": true,
         "**/.DS_Store": true,
@@ -66,7 +88,9 @@
         "**/.yarn": true,
         "**/.env.*": true
     },
-    "python.analysis.extraPaths": ["/home/vryno/ti/vryno/vocore"],
+    "python.analysis.extraPaths": [
+        "/home/vryno/ti/vryno/vocore"
+    ],
     "python.testing.unittestArgs": [
         "-v",
         "-s",
