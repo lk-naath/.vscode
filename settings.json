@@ -40,6 +40,7 @@
     "zenMode.showTabs": "none",
     "zenMode.silentNotifications": true,
     "zenMode.restore": false,
+    "editor.lineNumbers": "relative",
     "workbench.colorCustomizations": {
         "terminal.border": "#546E7A"
     },
