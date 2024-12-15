@@ -1,35 +1,17 @@
 {
-    "window.commandCenter": false,
+    "terminal.external.osxExec": "iTerm.app",
+    "workbench.colorTheme": "Material Theme",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "terminal.explorerKind": "external",
+    "terminal.integrated.gpuAcceleration": "on",
+    "window.commandCenter": false,
     "extensions.ignoreRecommendations": true,
     "workbench.panel.defaultLocation": "right",
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "editor.accessibilitySupport": "off",
-    "python.analysis.extraPaths": [
-        // "/home/vryno/ti/vryno/voworkflow",
-        // "/home/vryno/ti/vryno/voaccounts",
-        // "/home/vryno/ti/vryno/vogateway",
-        // "/home/vryno/ti/vryno/vosearch",
-        // "/home/vryno/ti/vryno/vonotify",
-        "/home/vryno/ti/vryno/vocore",
-        // "/home/vryno/ti/vryno/vocrm"
-    ],
-    "python.testing.pytestArgs": [
-        "voaccounts"
-    ],
-    "python.testing.unittestArgs": [
-        "-v",
-        "-s",
-        "./vocore",
-        "-p",
-        "test*.py"
-    ],
-    "cSpell.words": [
-        "mathjs",
-        "MULTISELECTRECORDLOOKUP",
-        "vocore"
-    ],
     "files.exclude": {
         "**/.git": true,
         "**/.DS_Store": true,
@@ -84,5 +66,18 @@
         "**/.ci_output": true,
         "**/.yarn": true,
         "**/.env.*": true
-    }
+    },
+    "python.analysis.extraPaths": ["/home/vryno/ti/vryno/vocore"],
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./vocore",
+        "-p",
+        "test*.py"
+    ],
+    "cSpell.words": [
+        "mathjs",
+        "MULTISELECTRECORDLOOKUP",
+        "vocore"
+    ],
 }
