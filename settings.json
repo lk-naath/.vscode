@@ -31,6 +31,9 @@
     "explorer.compactFolders": false,
     "terminal.integrated.tabs.enabled": false,
     "workbench.statusBar.visible": false,
+    "workbench.colorCustomizations": {
+        "terminal.border": "#546E7A"
+    },
     "editor.tabSize": 4,
     // files settings
     "files.exclude": {
