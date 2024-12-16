@@ -18,7 +18,7 @@
     "workbench.tree.renderIndentGuides": "none",
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": false,
-    "editor.minimap.enabled": true,
+    "editor.minimap.enabled": false,
     "editor.guides.indentation": false,
     "editor.renderWhitespace": "none",
     "editor.renderLineHighlight": "none",
