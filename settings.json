@@ -44,6 +44,7 @@
     "workbench.colorCustomizations": {
         "terminal.border": "#546E7A"
     },
+    "vim.handleKeys": {"<C-k>": false},
     // files settings
     "files.exclude": {
         "**/.git": true,
