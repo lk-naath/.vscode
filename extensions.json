@@ -13,6 +13,7 @@
         "eamodio.gitlens",
         "ms-python.vscode-pylance",
         "ms-python.python",
-        "ms-python.debugpy"
+        "ms-python.debugpy",
+        "graphql.vscode-graphql-syntax"
     ]
 }

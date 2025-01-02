@@ -1,11 +1,5 @@
 {
     "folders": [
-        // {"path": "/home/vryno/ti/vryno/voworkflow"},
-        // {"path": "/home/vryno/ti/vryno/voaccounts"},
-        // {"path": "/home/vryno/ti/vryno/vogateway"},
-        // {"path": "/home/vryno/ti/vryno/vosearch"},
-        // {"path": "/home/vryno/ti/vryno/vonotify"},
         {"path": "/home/vryno/ti/vryno/vocore"},
-        // {"path": "/home/vryno/ti/vryno/vocrm"},
     ]
 }
