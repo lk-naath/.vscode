@@ -116,5 +116,6 @@
         "MULTISELECTRECORDLOOKUP",
         "vocore"
     ],
-    "cSpell.diagnosticLevel": "Hint"
+    "cSpell.diagnosticLevel": "Hint",
+    "cSpell.allowCompoundWords": true
 }
