@@ -12,10 +12,10 @@
         "streetsidesoftware.code-spell-checker",
         "eamodio.gitlens",
         "ms-python.vscode-pylance",
-        "ms-python.python",
         "ms-python.debugpy",
         "graphql.vscode-graphql-syntax",
         "zeshuaro.vscode-python-poetry",
-        "tamasfe.even-better-toml"
+        "tamasfe.even-better-toml",
+        "mechatroner.rainbow-csv"
     ]
 }
