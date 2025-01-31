@@ -1,7 +1,17 @@
 {
     "version": "0.2.0",
-    "configurations": [
-    
+    "configurations": [ 
+        {
+            "name": "export",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "export",
+            "cwd": "/home/vryno/ti/vryno/vocrm",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+            "envFile": "/home/vryno/.env"
+        },
         {
             "name": "lookup",
             "type": "debugpy",
@@ -71,7 +81,7 @@
             "console": "integratedTerminal",
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
             "cwd": "/home/vryno/ti/vryno/voaccounts",
-            "args": ["-A", "celery_tasks.accounts_tasks", "worker"],
+            "args": ["-A", "celery_tasks.accounts_tasks", "worker", "--beat"],
             "envFile": "/home/vryno/.env"
         },
         {
@@ -109,7 +119,7 @@
             "console": "integratedTerminal",
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
             "cwd": "/home/vryno/ti/vryno/vocrm",
-            "args": ["-A", "celery_tasks.crm_tasks", "worker"],
+            "args": ["-A", "celery_tasks.crm_tasks", "worker", "--beat"],
             "envFile": "/home/vryno/.env"
         },
         {
@@ -147,7 +157,7 @@
             "console": "integratedTerminal",
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
             "cwd": "/home/vryno/ti/vryno/voworkflow",
-            "args": ["-A", "celery_tasks.workflow_tasks", "worker"],
+            "args": ["-A", "celery_tasks.workflow_tasks", "worker", "--beat"],
             "envFile": "/home/vryno/.env"
         },
         {
@@ -211,7 +221,7 @@
             "console": "integratedTerminal",
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
             "cwd": "/home/vryno/ti/vryno/vonotify",
-            "args": ["-A", "celery_tasks.notify_tasks", "worker"],
+            "args": ["-A", "celery_tasks.notify_tasks", "worker", "--beat"],
             "envFile": "/home/vryno/.env"
         },
         {
