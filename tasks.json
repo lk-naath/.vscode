@@ -8,7 +8,6 @@
         "isBackground": true,
         "options": {
           "cwd": "/home/vryno/ti/vryno/vocrm",
-        //   "shell": { "executable": "/bin/zsh", "args": ["-c"] }
         },
         "presentation": { "reveal": "always" },
         "problemMatcher": []
