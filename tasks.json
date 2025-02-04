@@ -4,20 +4,26 @@
       {
         "label": "crm-celery",
         "type": "shell",
-        "command": "pkill -f celery_tasks.crm_tasks; python -m vocore.infra.celery.app",
+        "command": "pkill -f -e -c celery_tasks.accounts_tasks && python -m vocore.infra.celery.app 2>&1 | tee crm-celery.log",
         "isBackground": true,
-        "presentation": {
-          "close": true
-        }
+        "options": {
+          "cwd": "/home/vryno/ti/vryno/vocrm",
+        //   "shell": { "executable": "/bin/zsh", "args": ["-c"] }
+        },
+        "presentation": { "reveal": "always" },
+        "problemMatcher": []
       },
       {
         "label": "accounts-celery",
         "type": "shell",
-        "command": "pkill -f celery_tasks.accounts_tasks; python -m vocore.infra.celery.app",
+        "command": "python -m vocore.infra.celery.app && pkill -f -e -c celery_tasks.accounts_tasks",
         "isBackground": true,
-        "presentation": {
-          "close": true
-        }
+        "options": {
+          "cwd": "/home/vryno/ti/vryno/voaccounts",
+        //   "shell": { "executable": "/bin/zsh", "args": ["-c"] }
+        },
+        "presentation": { "reveal": "always" },
+        "problemMatcher": []
       }
     ]
   }
