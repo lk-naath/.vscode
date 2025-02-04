@@ -1,6 +1,9 @@
 {
     "python.defaultInterpreterPath": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
     // global settings
+    "git.autofetch": false,
+    "workbench.list.smoothScrolling": false,
+    "debug.openDebug": "neverOpen",
     "workbench.editor.showTabs": "none",
     "workbench.editor.editorActionsLocation": "hidden",
     "workbench.colorTheme": "Material Theme",
@@ -42,8 +45,20 @@
     "zenMode.silentNotifications": true,
     "zenMode.restore": false,
     "editor.lineNumbers": "relative",
+    // terminal config
+    "terminal.integrated.scrollback": 1000,
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "python.analysis.diagnosticMode": "openFilesOnly",
+    "python.analysis.autoSearchPaths": false,
+    "python.analysis.useLibraryCodeForTypes": false,
     "workbench.colorCustomizations": {
         "terminal.border": "#546E7A"
+    },
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
     },
     "vim.handleKeys": {"<C-k>": false},
     // files settings
