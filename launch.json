@@ -1,6 +1,6 @@
 {
     "version": "0.2.0",
-    "configurations": [ 
+    "configurations": [
         {
             "name": "export",
             "type": "debugpy",
@@ -82,7 +82,8 @@
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
             "cwd": "/home/vryno/ti/vryno/voaccounts",
             "args": ["-A", "celery_tasks.accounts_tasks", "worker", "--beat"],
-            "envFile": "/home/vryno/.env"
+            "envFile": "/home/vryno/.env",
+            "preLaunchTask": "accounts-celery"
         },
         {
             "name": "crm",
