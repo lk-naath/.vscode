@@ -1,4 +1,5 @@
 {
+    "python.defaultInterpreterPath": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
     // global settings
     "workbench.editor.showTabs": "none",
     "workbench.editor.editorActionsLocation": "hidden",
@@ -53,7 +54,7 @@
         "**/.pytest_cache": true,
         "**/node_modules": true,
         "**/sql": true,
-        "**/schema_files": true,
+        // "**/schema_files": true,
         "**/data-files": true,
         "**/.next": true,
         "**/.python-version": true,

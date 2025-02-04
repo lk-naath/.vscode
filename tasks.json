@@ -1,25 +1,24 @@
 {
-  "version": "2.0.0",
-  "tasks": [
+    "version": "2.0.0",
+    "tasks": [
       {
-          "label": "crm setup task",
-          "type": "shell",
-          "command": "pkill -f -e -c celery_tasks.crm_tasks && python -m vocore.infra.celery.app",
-          "problemMatcher": {
-            "pattern": {
-                "regexp": "."
-            },
-            "background": {
-                "activeOnStart": true,
-                "beginsPattern": ".",
-                "endsPattern": "."
-            }
-          },
-          "isBackground": true,
-          "group": {
-              "kind": "build",
-              "isDefault": true
-          },
+        "label": "crm-celery",
+        "type": "shell",
+        "command": "pkill -f celery_tasks.crm_tasks; python -m vocore.infra.celery.app",
+        "isBackground": true,
+        "presentation": {
+          "close": true
+        }
+      },
+      {
+        "label": "accounts-celery",
+        "type": "shell",
+        "command": "pkill -f celery_tasks.accounts_tasks; python -m vocore.infra.celery.app",
+        "isBackground": true,
+        "presentation": {
+          "close": true
+        }
       }
-  ]
-}
+    ]
+  }
+  
