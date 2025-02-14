@@ -1,16 +1,17 @@
 {
     "version": "0.2.0",
-    "configurations": [
+    "configurations": [ 
         {
-            "name": "export",
+            "name": "pytest",
             "type": "debugpy",
             "request": "launch",
-            "module": "export",
+            "module": "pytest",
             "cwd": "/home/vryno/ti/vryno/vocrm",
             "console": "integratedTerminal",
             "justMyCode": false,
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
-            "envFile": "/home/vryno/.env"
+            "envFile": "/home/vryno/.env",
+            "args": ["./tests/calendar/crud.py::test_update"]
         },
         {
             "name": "lookup",
@@ -121,7 +122,8 @@
             "python": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
             "cwd": "/home/vryno/ti/vryno/vocrm",
             "args": ["-A", "celery_tasks.crm_tasks", "worker", "--beat"],
-            "envFile": "/home/vryno/.env"
+            "envFile": "/home/vryno/.env",
+            "preLaunchTask": "crm-celery"
         },
         {
             "type": "debugpy",
