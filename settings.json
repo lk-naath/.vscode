@@ -6,7 +6,7 @@
     "debug.openDebug": "neverOpen",
     "workbench.editor.showTabs": "none",
     "workbench.editor.editorActionsLocation": "hidden",
-    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.layoutControl.enabled": false,
     "workbench.activityBar.location": "hidden",
@@ -55,14 +55,38 @@
     "workbench.tree.indent": 12,
     "explorer.decorations.badges": false,
     "git.decorations.enabled": false,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "block",
+    "editor.codeLens": false,
     "window.zoomLevel": -2.25,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "notebook.showFoldingControls": "never",
+    "workbench.editor.highlightModifiedTabs": false,
     "workbench.colorCustomizations": {
-        "terminal.border": "#546E7A"
+        "terminal.border": "#546E7A",
+        "editorCursor.background": "#000000",
+        "[Aura Dracula Spirit (Soft)]": {
+            "sideBar.background": "#16131E",
+            "editorSuggestWidget.selectedBackground": "#16131E",
+            "editorSuggestWidget.background": "#16131E",
+            "editorSuggestWidget.border": "#16131E",
+        }
     },
     "editor.quickSuggestions": {
         "other": true,
         "comments": false,
         "strings": false
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
     },
     "vim.handleKeys": {"<C-k>": false},
     // files settings
