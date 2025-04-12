@@ -71,6 +71,8 @@
             "editorSuggestWidget.selectedBackground": "#1A1B26",
             "editorSuggestWidget.background": "#1A1B26",
             "editorSuggestWidget.border": "#1A1B26",
+            // quick open
+            "quickInput.background": "#1A1B26",
         },
         "[Aura Dracula Spirit (Soft)]": {
             "sideBar.background": "#191521",
@@ -79,6 +81,8 @@
             "editorSuggestWidget.selectedBackground": "#191521",
             "editorSuggestWidget.background": "#191521",
             "editorSuggestWidget.border": "#191521",
+            // quick open
+            "quickInput.background": "#191521",
         }
     },
     "editor.quickSuggestions": {
