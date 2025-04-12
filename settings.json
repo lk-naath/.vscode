@@ -64,7 +64,6 @@
     "notebook.showFoldingControls": "never",
     "workbench.editor.highlightModifiedTabs": false,
     "workbench.colorCustomizations": {
-        "terminal.border": "#546E7A",
         "editorCursor.background": "#000000",
         "[Aura Dracula Spirit (Soft)]": {
             "sideBar.background": "#16131E",
