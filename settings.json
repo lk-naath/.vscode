@@ -6,7 +6,7 @@
     "debug.openDebug": "neverOpen",
     "workbench.editor.showTabs": "none",
     "workbench.editor.editorActionsLocation": "hidden",
-    "workbench.colorTheme": "Material Theme",
+    "workbench.colorTheme": "Default Dark Modern",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.layoutControl.enabled": false,
     "workbench.activityBar.location": "hidden",
@@ -52,6 +52,10 @@
     "python.analysis.diagnosticMode": "openFilesOnly",
     "python.analysis.autoSearchPaths": false,
     "python.analysis.useLibraryCodeForTypes": false,
+    "workbench.tree.indent": 12,
+    "explorer.decorations.badges": false,
+    "git.decorations.enabled": false,
+    "window.zoomLevel": -2.25,
     "workbench.colorCustomizations": {
         "terminal.border": "#546E7A"
     },
