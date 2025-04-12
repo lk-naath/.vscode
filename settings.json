@@ -6,7 +6,7 @@
     "debug.openDebug": "neverOpen",
     "workbench.editor.showTabs": "none",
     "workbench.editor.editorActionsLocation": "hidden",
-    "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
+    "workbench.colorTheme": "Tokyo Night",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.layoutControl.enabled": false,
     "workbench.activityBar.location": "hidden",
@@ -64,12 +64,21 @@
     "notebook.showFoldingControls": "never",
     "workbench.editor.highlightModifiedTabs": false,
     "workbench.colorCustomizations": {
-        "editorCursor.background": "#000000",
+        "[Tokyo Night]": {
+            "sideBar.background": "#1A1B26",
+            "terminal.background": "#1A1B26",
+            "editorCursor.background": "#1A1B26",
+            "editorSuggestWidget.selectedBackground": "#1A1B26",
+            "editorSuggestWidget.background": "#1A1B26",
+            "editorSuggestWidget.border": "#1A1B26",
+        },
         "[Aura Dracula Spirit (Soft)]": {
-            "sideBar.background": "#16131E",
-            "editorSuggestWidget.selectedBackground": "#16131E",
-            "editorSuggestWidget.background": "#16131E",
-            "editorSuggestWidget.border": "#16131E",
+            "sideBar.background": "#191521",
+            "terminal.background": "#191521",
+            "editorCursor.background": "#191521",
+            "editorSuggestWidget.selectedBackground": "#191521",
+            "editorSuggestWidget.background": "#191521",
+            "editorSuggestWidget.border": "#191521",
         }
     },
     "editor.quickSuggestions": {
