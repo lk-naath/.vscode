@@ -58,7 +58,7 @@
     "editor.cursorBlinking": "solid",
     "editor.cursorStyle": "block",
     "editor.codeLens": false,
-    "window.zoomLevel": -2.25,
+    "window.zoomLevel": -2.50,
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "notebook.showFoldingControls": "never",
