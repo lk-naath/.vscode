@@ -104,6 +104,7 @@
     // files settings
     "files.exclude": {
         "**/.git": true,
+        "**/.vscode": true,
         "**/.DS_Store": true,
         "**/__pycache__": true,
         "**/.pytest_cache": true,
