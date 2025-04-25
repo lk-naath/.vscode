@@ -1,6 +1,6 @@
 {
     "version": "0.2.0",
-    "configurations": [       
+    "configurations": [
         {
             "name": "pytest",
             "type": "debugpy",
@@ -251,6 +251,18 @@
             "envFile": "/home/vryno/.env",
             "env": {"PORT": "9000", "IS_BACKGROUND_SERVICE": "true"}
         },
+        {
+            "type": "debugpy",
+            "name": "docscience backend",
+            "module": "uvicorn",
+            "args": ["app.docscience.api:docscience"],
+            "request": "launch",
+            "justMyCode": false,
+            "console": "integratedTerminal",
+            "cwd": "/Users/uttam/Desktop/nexyom/idp-backend",
+            "python": "/Users/uttam/.pyenv/versions/.nexyom/bin/python",
+            "envFile": "/Users/uttam/Desktop/nexyom/idp-backend/.env.cpy"
+        }
     ],
     // "compounds": [
     //     {
