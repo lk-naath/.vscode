@@ -202,7 +202,9 @@
         "MULTISELECTRECORDLOOKUP",
         "vocore",
         "Lekhnath",
-        "Parajuli"
+        "Parajuli",
+        "Vishu",
+        "Mishra",
     ],
     "cSpell.diagnosticLevel": "Hint",
     "cSpell.allowCompoundWords": true
