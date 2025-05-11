@@ -208,7 +208,8 @@
         "Vishu",
         "Mishra",
         "micore",
-        "micoagent"
+        "micoagent",
+        "micoai"
     ],
     "cSpell.diagnosticLevel": "Hint",
     "cSpell.allowCompoundWords": true
