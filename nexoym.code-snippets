@@ -17,5 +17,24 @@
         "#===============================================================================",
         ""
       ]
-    }
+    },
+    "Mico Copyright Header": {
+        "prefix": "copyright",
+        "description": "Add Mico copyright header to file",
+        "body": [
+          "#===============================================================================",
+          "#                             Mico Pvt Ltd.",
+          "#===============================================================================",
+          "#",
+          "# Copyright (C) 2025 Mico Pvt Ltd. All Rights Reserved.",
+          "#",
+          "# Unauthorized copying or distribution of this file or any portion of its contents,",
+          "# via any medium or method, is strictly prohibited. This software contains trade",
+          "# secrets and confidential information of Mico Pvt Ltd.",
+          "#",
+          "# Author: <Lekhnath> <lekhnath.parajuli@mico.com>",
+          "#===============================================================================",
+          ""
+        ]
+      }
   }
