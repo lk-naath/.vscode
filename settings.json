@@ -194,9 +194,9 @@
         "**/.env.*": true,
     },
     "python.analysis.extraPaths": [
-        "/home/vryno/ti/vryno/vocore",
+        // "/home/vryno/ti/vryno/vocore",
         "/Users/uttam/Documents/mico/micore",
-        "/Users/uttam/Desktop/vryno/vocore"
+        // "/Users/uttam/Desktop/vryno/vocore"
     ],
     "python.testing.unittestArgs": [
         "-v",
