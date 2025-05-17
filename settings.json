@@ -110,7 +110,7 @@
         "**/.pytest_cache": true,
         "**/node_modules": true,
         "**/sql": true,
-        // "**/schema_files": true,
+        "**/schema_files": true,
         "**/data-files": true,
         "**/.next": true,
         "**/.python-version": true,
