@@ -104,7 +104,7 @@
     // files settings
     "files.exclude": {
         "**/.git": true,
-        "**/.vscode": true,
+        // "**/.vscode": true,
         "**/.DS_Store": true,
         "**/__pycache__": true,
         "**/.pytest_cache": true,
@@ -194,14 +194,13 @@
         "**/.env.*": true,
     },
     "python.analysis.extraPaths": [
-        // "/home/vryno/ti/vryno/vocore",
-        "/Users/uttam/Documents/mico/micore",
-        // "/Users/uttam/Desktop/vryno/vocore"
+        "micore",
+        "vocore"
     ],
     "python.testing.unittestArgs": [
         "-v",
         "-s",
-        "./vocore",
+        "vocore",
         "-p",
         "test*.py"
     ],
