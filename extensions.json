@@ -17,6 +17,7 @@
         "tamasfe.even-better-toml",
         "mechatroner.rainbow-csv",
         "ms-vscode.vscode-speech",
-        "enkia.tokyo-night"
+        "enkia.tokyo-night",
+        "christian-kohler.path-intellisense"
     ]
 }
