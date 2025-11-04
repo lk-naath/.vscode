@@ -46,7 +46,7 @@
     "zenMode.restore": false,
     "editor.lineNumbers": "relative",
     // terminal config
-    "terminal.integrated.scrollback": 1000,
+    "terminal.integrated.scrollback": 5000,
     "terminal.integrated.enablePersistentSessions": false,
     "terminal.integrated.defaultProfile.linux": "zsh",
     "python.analysis.diagnosticMode": "openFilesOnly",
