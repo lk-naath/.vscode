@@ -215,6 +215,7 @@
         "micore",
         "micoagent",
         "micoai",
+        "micoid",
         "DEEP_SEEK_API_KEY",
         "GROQ_API_KEY",
         "GROK_API_KEY"
