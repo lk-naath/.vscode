@@ -221,5 +221,7 @@
         "GROK_API_KEY"
     ],
     "cSpell.diagnosticLevel": "Hint",
-    "cSpell.allowCompoundWords": true
+    "cSpell.allowCompoundWords": true,
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": []
 }
