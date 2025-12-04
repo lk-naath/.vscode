@@ -18,6 +18,7 @@
         "mechatroner.rainbow-csv",
         "ms-vscode.vscode-speech",
         "enkia.tokyo-night",
-        "christian-kohler.path-intellisense"
+        "christian-kohler.path-intellisense",
+        "formulahendry.auto-close-tag"
     ]
 }
