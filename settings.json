@@ -87,7 +87,7 @@
     },
     "editor.suggestOnTriggerCharacters": true,
     "editor.acceptSuggestionOnEnter": "off",
-    "editor.suggest.selectionMode": "never",
+    "editor.inlineSuggest.enabled": false,
     "editor.quickSuggestions": {
         "other": false,
         "comments": false,
