@@ -85,8 +85,11 @@
             "quickInput.background": "#191521",
         }
     },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.suggest.selectionMode": "never",
     "editor.quickSuggestions": {
-        "other": true,
+        "other": false,
         "comments": false,
         "strings": false
     },
