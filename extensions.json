@@ -19,6 +19,7 @@
         "ms-vscode.vscode-speech",
         "enkia.tokyo-night",
         "christian-kohler.path-intellisense",
-        "formulahendry.auto-close-tag"
+        "formulahendry.auto-close-tag",
+        "ms-vscode.makefile-tools"
     ]
 }
