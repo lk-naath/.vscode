@@ -18,7 +18,7 @@
             "request": "launch",
             "module": "pytest",
             "args": ["-k", "test_my_function"],
-            "cwd": "/Users/uttam/Desktop/odoo/odoo17",
+            "cwd": "/Users/uttam/Desktop/mico/micore",
             "console": "integratedTerminal",
             "python": "/Users/uttam/.pyenv/versions/.mico/bin/python"
         }
