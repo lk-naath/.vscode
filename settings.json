@@ -197,15 +197,11 @@
         "**/.env.*": true,
     },
     "python.analysis.extraPaths": [
+        "doit",
+        "micoid",
         "micore",
-        "vocore"
-    ],
-    "python.testing.unittestArgs": [
-        "-v",
-        "-s",
         "vocore",
-        "-p",
-        "test*.py"
+
     ],
     "cSpell.words": [
         "mathjs",
