@@ -12,6 +12,16 @@
             "cwd": "/Users/uttam/Desktop/odoo/odoo17",
             "python": "/Users/uttam/.pyenv/versions/.odoo/bin/python",
         },
+        {
+            "type": "debugpy",
+            "name": "test",
+            "request": "launch",
+            "module": "pytest",
+            "args": ["-k", "test_my_function"],
+            "cwd": "/Users/uttam/Desktop/odoo/odoo17",
+            "console": "integratedTerminal",
+            "python": "/Users/uttam/.pyenv/versions/.odoo/bin/python",
+        }
     ],
     // "compounds": [
     //     {
