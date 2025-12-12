@@ -20,7 +20,7 @@
             "args": ["-k", "test_my_function"],
             "cwd": "/Users/uttam/Desktop/odoo/odoo17",
             "console": "integratedTerminal",
-            "python": "/Users/uttam/.pyenv/versions/.odoo/bin/python",
+            "python": "/Users/uttam/.pyenv/versions/.mico/bin/python"
         }
     ],
     // "compounds": [
