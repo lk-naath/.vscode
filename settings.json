@@ -1,5 +1,5 @@
 {
-    "python.defaultInterpreterPath": "/home/vryno/.pyenv/versions/.vryno3.11/bin/python",
+    "python.defaultInterpreterPath": "/Users/uttam/.pyenv/versions/.mico/bin/python",
     // global settings
     "git.autofetch": false,
     "workbench.list.smoothScrolling": false,
@@ -204,6 +204,7 @@
 
     ],
     "cSpell.words": [
+        "asyncop",
         "mathjs",
         "MULTISELECTRECORDLOOKUP",
         "vocore",

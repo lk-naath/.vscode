@@ -17,11 +17,22 @@
             "name": "test",
             "request": "launch",
             "module": "pytest",
-            "args": ["-k", "test_my_function"],
-            "cwd": "/Users/uttam/Desktop/mico/micore",
+            "args": ["-k", "test_register"],
+            "cwd": "/Users/uttam/Desktop/mico/micoid",
             "console": "integratedTerminal",
             "python": "/Users/uttam/.pyenv/versions/.mico/bin/python"
-        }
+        },
+        {
+            "type": "debugpy",
+            "name": "mico",
+            "request": "launch",
+            "module": "main",
+            "args": [],
+            "cwd": "/Users/uttam/Desktop/mico/micoai",
+            "console": "integratedTerminal",
+            "python": "/Users/uttam/.pyenv/versions/.mico/bin/python"
+        },
+
     ],
     // "compounds": [
     //     {
