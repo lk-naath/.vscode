@@ -219,7 +219,8 @@
         "micoid",
         "DEEP_SEEK_API_KEY",
         "GROQ_API_KEY",
-        "GROK_API_KEY"
+        "GROK_API_KEY",
+        "Agentify"
     ],
     "cSpell.diagnosticLevel": "Hint",
     "cSpell.allowCompoundWords": true,
