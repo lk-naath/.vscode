@@ -1,5 +1,6 @@
 {
     "python.defaultInterpreterPath": "/Users/uttam/.pyenv/versions/.mico/bin/python",
+    "chat.agent.enabled": false,
     // global settings
     "git.autofetch": false,
     "workbench.list.smoothScrolling": false,
