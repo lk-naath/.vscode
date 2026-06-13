@@ -225,6 +225,12 @@
         "Agentify",
         "agikit"
     ],
+      "files.associations": {
+        "*.lark": "lark"
+    },
+    "lark.server.enabled": true,
+    "lark.server.arguments": ["--log-level", "INFO"],
+    "lark.server.trace": "off",
     "cSpell.diagnosticLevel": "Hint",
     "cSpell.allowCompoundWords": true,
     "python-envs.defaultEnvManager": "ms-python.python:system",
