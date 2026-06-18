@@ -24,7 +24,8 @@
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": false,
     "editor.minimap.enabled": false,
-    "editor.guides.indentation": false,
+    "editor.guides.indentation": true,
+    "editor.guides.highlightActiveIndentation": true,
     "editor.renderWhitespace": "none",
     "editor.renderLineHighlight": "none",
     "editor.showFoldingControls": "never",
@@ -65,6 +66,8 @@
     "notebook.showFoldingControls": "never",
     "workbench.editor.highlightModifiedTabs": false,
     "workbench.colorCustomizations": {
+        "editorIndentGuide.background1": "#2A2E42",
+        "editorIndentGuide.activeBackground1": "#46506F",
         "[Tokyo Night]": {
             "sideBar.background": "#1A1B26",
             "terminal.background": "#1A1B26",
@@ -225,8 +228,9 @@
         "Agentify",
         "agikit"
     ],
-      "files.associations": {
-        "*.lark": "lark"
+    "files.associations": {
+        "*.lark": "lark",
+        "*.txt": "markdown"
     },
     "lark.server.enabled": true,
     "lark.server.arguments": ["--log-level", "INFO"],
@@ -234,5 +238,10 @@
     "cSpell.diagnosticLevel": "Hint",
     "cSpell.allowCompoundWords": true,
     "python-envs.defaultEnvManager": "ms-python.python:system",
-    "python-envs.pythonProjects": []
+    "python-envs.pythonProjects": [],
+    "todo-tree.general.tags": [
+        "TODO",
+        "FIXME",
+        "NOTE"
+    ],
 }
