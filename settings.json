@@ -45,10 +45,6 @@
     "zenMode.silentNotifications": true,
     "zenMode.restore": false,
     "editor.lineNumbers": "relative",
-    "editor.rulers": [
-        80,
-        120
-    ],
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 120,
     // terminal config
