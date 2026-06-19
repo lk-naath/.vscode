@@ -32,6 +32,16 @@
             "console": "integratedTerminal",
             "python": "/Users/uttam/.pyenv/versions/.mico/bin/python"
         },
+        {
+            "type": "debugpy",
+            "name": "agi",
+            "request": "launch",
+            "module": "exp",
+            "args": [],
+            "cwd": "/Users/uttam/Desktop/mico/micoai",
+            "console": "integratedTerminal",
+            "python": "/Users/uttam/.pyenv/versions/.mico/bin/python"
+        },
 
     ],
     // "compounds": [

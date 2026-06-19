@@ -21,7 +21,6 @@
         "christian-kohler.path-intellisense",
         "formulahendry.auto-close-tag",
         "ms-vscode.makefile-tools",
-        "aaron-bond.better-comments",
-        "gruntfuggly.todo-tree"
+        "aaron-bond.better-comments"
     ]
 }
