@@ -3,46 +3,39 @@
     "configurations": [
         {
             "type": "debugpy",
-            "name": "odoo",
-            "program": "odoo-bin",
-            "args": ["-c", "odoo.conf", "--init", "bz_postcode_lookup"],
+            "name": "common",
+            "module": "module",
             "request": "launch",
             "justMyCode": false,
-            "console": "integratedTerminal",
-            "cwd": "/Users/uttam/Desktop/odoo/odoo17",
-            "python": "/Users/uttam/.pyenv/versions/.odoo/bin/python",
-        },
-        {
-            "type": "debugpy",
-            "name": "test",
-            "request": "launch",
-            "module": "pytest",
-            "args": ["-k", "test_register"],
-            "cwd": "/Users/uttam/Desktop/mico/micoid",
-            "console": "integratedTerminal",
-            "python": "/Users/uttam/.pyenv/versions/.mico/bin/python"
-        },
-        {
-            "type": "debugpy",
-            "name": "mico",
-            "request": "launch",
-            "module": "main",
+            "subProcess": true,
             "args": [],
-            "cwd": "/Users/uttam/Desktop/mico/micoai",
+            "cwd": "${PROJECT}",
             "console": "integratedTerminal",
-            "python": "/Users/uttam/.pyenv/versions/.mico/bin/python"
+            "python": "${PYTHON}"
         },
+
         {
             "type": "debugpy",
             "name": "agi",
             "request": "launch",
-            "module": "exp",
+            "module": "pattern",
             "args": [],
-            "cwd": "/Users/uttam/Desktop/mico/micoai",
+            "cwd": "/Users/uttam/Desktop/mico/aos",
             "console": "integratedTerminal",
-            "python": "/Users/uttam/.pyenv/versions/.mico/bin/python"
+            "python": "/Users/uttam/.pyenv/versions/.agi/bin/python"
         },
-
+        {
+            "type": "debugpy",
+            "name": "profiler",
+            "request": "launch",
+            "module": "profiler",
+            "justMyCode": false,
+            "subProcess": true,
+            "args": [],
+            "cwd": "/Users/uttam/Desktop/mico/aos",
+            "console": "integratedTerminal",
+            "python": "/Users/uttam/.pyenv/versions/.agi/bin/python"
+        },
     ],
     // "compounds": [
     //     {
