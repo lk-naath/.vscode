@@ -34,8 +34,24 @@
             "args": [],
             "cwd": "/Users/uttam/Desktop/mico/aos",
             "console": "integratedTerminal",
-            "python": "/Users/uttam/.pyenv/versions/.agi/bin/python"
+            "python": "/Users/uttam/.pyenv/versions/.agi/bin/python",
+            "stopOnEntry": false,
+            "showReturnValue": true,
         },
+        {
+            "name": "pytest",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": ["-k", "test_profiler"],
+            "cwd": "/Users/uttam/Desktop/mico/aos",
+            "console": "integratedTerminal",
+            "python": "/Users/uttam/.pyenv/versions/.agi/bin/python",
+            "justMyCode": false,
+            "subProcess": true,
+            "purpose": ["debug-test"],
+            "env": {"PYTEST_ADDOPTS": "--no-cov"}
+        }
     ],
     // "compounds": [
     //     {
