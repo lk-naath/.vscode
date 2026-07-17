@@ -1,0 +1,103 @@
+{
+    // UI & Editor Settings (Global)
+    "chat.agent.enabled": false,
+    "git.autofetch": false,
+    "workbench.list.smoothScrolling": false,
+    "debug.openDebug": "neverOpen",
+    "workbench.editor.showTabs": "none",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.colorTheme": "Vira Ocean",
+    "workbench.iconTheme": "vira-icons-palenight",
+    "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "terminal.explorerKind": "external",
+    "terminal.integrated.gpuAcceleration": "on",
+    "window.commandCenter": false,
+    "extensions.ignoreRecommendations": true,
+    "workbench.panel.defaultLocation": "right",
+    "editor.accessibilitySupport": "off",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.renderLineHighlight": "none",
+    "editor.showFoldingControls": "never",
+    "editor.scrollbar.horizontalScrollbarSize": 1,
+    "editor.scrollbar.verticalScrollbarSize": 1,
+    "editor.hideCursorInOverviewRuler": false,
+    "editor.overviewRulerBorder": true,
+    "editor.detectIndentation": false,
+    "explorer.compactFolders": false,
+    "terminal.integrated.tabs.enabled": false,
+    "workbench.statusBar.visible": false,
+    "editor.tabSize": 4,
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": true,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideActivityBar": true,
+    "zenMode.hideStatusBar": true,
+    "zenMode.showTabs": "none",
+    "zenMode.silentNotifications": true,
+    "zenMode.restore": false,
+    "editor.lineNumbers": "relative",
+    "editor.wordWrap": "off",
+    "terminal.integrated.scrollback": 5000,
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "workbench.tree.indent": 12,
+    "explorer.decorations.badges": false,
+    "git.decorations.enabled": false,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "block",
+    "editor.codeLens": false,
+    "window.zoomLevel": -2.50,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "notebook.showFoldingControls": "never",
+    "workbench.editor.highlightModifiedTabs": false,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.inlineSuggest.enabled": false,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "vim.handleKeys": {"<C-k>": false},
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.background1": "#2A2E42",
+        "editorIndentGuide.activeBackground1": "#46506F",
+        "[Tokyo Night]": {
+            "sideBar.background": "#1A1B26",
+            "terminal.background": "#1A1B26",
+            "editorCursor.background": "#1A1B26",
+            "editorSuggestWidget.selectedBackground": "#1A1B26",
+            "editorSuggestWidget.background": "#1A1B26",
+            "editorSuggestWidget.border": "#1A1B26",
+            "quickInput.background": "#1A1B26"
+        },
+        "[Aura Dracula Spirit (Soft)]": {
+            "sideBar.background": "#191521",
+            "terminal.background": "#191521",
+            "editorCursor.background": "#191521",
+            "editorSuggestWidget.selectedBackground": "#191521",
+            "editorSuggestWidget.background": "#191521",
+            "editorSuggestWidget.border": "#191521",
+            "quickInput.background": "#191521"
+        }
+    },
+    "cSpell.diagnosticLevel": "Hint",
+    "cSpell.allowCompoundWords": true
+}
