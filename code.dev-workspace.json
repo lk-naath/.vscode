@@ -1,9 +1,6 @@
 {
-    "folders": [{"path": ".", "name": "AOS Project"}],
+    "folders": [{"path": ".", "name": "Deveopment"}],
     "settings": {
-        // ============================================
-        // PYTHON & PYLANCE SETTINGS
-        // ============================================
         "python.defaultInterpreterPath": "/Users/uttam/.pyenv/versions/.mico/bin/python",
         "python.testing.unittestEnabled": false,
         "python.testing.pytestEnabled": true,
@@ -19,7 +16,8 @@
         "python.analysis.extraPaths": [
             "${workspaceFolder}",
             "${workspaceFolder}/aos",
-            "${workspaceFolder}/aos/typings",
+            "${workspaceFolder}/typings",
+            "${workspaceFolder}/aos/typings"
         ],
         "python.analysis.diagnosticSeverityOverrides": {
             "reportMissingModuleSource": "none",
@@ -33,9 +31,6 @@
         "python-envs.defaultEnvManager": "ms-python.python:system",
         "python-envs.pythonProjects": [],
 
-        // ============================================
-        // FILE EXCLUSIONS
-        // ============================================
         "files.exclude": {
             "**/.git": true,
             "**/.DS_Store": true,
@@ -126,25 +121,15 @@
             "**/.yarn/**": true,
             "**/.env.*/**": true
         },
-
-        // ============================================
-        // FILE ASSOCIATIONS
-        // ============================================
         "files.associations": {
             "*.lark": "lark",
             "*.txt": "markdown"
         },
 
-        // ============================================
-        // LARK EXTENSION (Project-specific)
-        // ============================================
         "lark.server.enabled": true,
         "lark.server.arguments": ["--log-level", "INFO"],
         "lark.server.trace": "off",
 
-        // ============================================
-        // CSPELL (Project-specific words)
-        // ============================================
         "cSpell.words": [
             "asyncop",
             "mathjs",
@@ -166,9 +151,6 @@
             "agikit"
         ],
 
-        // ============================================
-        // TODO TREE (Project-specific)
-        // ============================================
         "todo-tree.general.tags": [
             "TODO",
             "FIXME",
