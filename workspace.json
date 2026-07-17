@@ -1,5 +1,4 @@
 {
-    // UI & Editor Settings (Global)
     "chat.agent.enabled": false,
     "git.autofetch": false,
     "workbench.list.smoothScrolling": false,
@@ -17,6 +16,9 @@
     "workbench.panel.defaultLocation": "right",
     "editor.accessibilitySupport": "off",
     "material-icon-theme.hidesExplorerArrows": true,
+    "editor.guides.indentation": false,
+    "editor.guides.bracketPairs": false,
+    "editor.guides.bracketPairsHorizontal": false,
     "workbench.tree.renderIndentGuides": "none",
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": false,
