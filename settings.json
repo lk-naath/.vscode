@@ -13,8 +13,9 @@
     "python.analysis.extraPaths": [
         "${workspaceFolder}",
         "${workspaceFolder}/aos",
+        "${workspaceFolder}/lingua",
         "${workspaceFolder}/typings",
-        "${workspaceFolder}/aos/typings"
+        "${workspaceFolder}/aos/typings",
     ],
     "python.analysis.diagnosticSeverityOverrides": {
         "reportMissingModuleSource": "none",

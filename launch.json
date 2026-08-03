@@ -51,6 +51,17 @@
             "subProcess": true,
             "purpose": ["debug-test"],
             "env": {"PYTEST_ADDOPTS": "--no-cov"}
+        },
+        {
+            "name": "deeplingua",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "agent",
+            "cwd": "/Users/uttam/Desktop/mico/lingua",
+            "console": "integratedTerminal",
+            "python": "/Users/uttam/.pyenv/versions/.agi/bin/python",
+            "justMyCode": false,
+            "subProcess": true,
         }
     ],
     // "compounds": [
