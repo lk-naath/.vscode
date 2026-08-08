@@ -146,6 +146,8 @@
         "GROQ_API_KEY",
         "GROK_API_KEY",
         "Agentify",
-        "agikit"
+        "agikit",
+        "lingos",
+        "deeplingos"
     ]
 }
