@@ -13,7 +13,7 @@
     "python.analysis.extraPaths": [
         "${workspaceFolder}",
         "${workspaceFolder}/aos",
-        "${workspaceFolder}/lingua",
+        "${workspaceFolder}/lingos",
         "${workspaceFolder}/typings",
         "${workspaceFolder}/aos/typings",
     ],
