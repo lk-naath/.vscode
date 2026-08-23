@@ -53,11 +53,11 @@
             "env": {"PYTEST_ADDOPTS": "--no-cov"}
         },
         {
-            "name": "deeplingua",
+            "name": "lingos",
             "type": "debugpy",
             "request": "launch",
             "module": "agent",
-            "cwd": "/Users/uttam/Desktop/mico/lingua",
+            "cwd": "/Users/uttam/Desktop/mico/lingos",
             "console": "integratedTerminal",
             "python": "/Users/uttam/.pyenv/versions/.agi/bin/python",
             "justMyCode": false,

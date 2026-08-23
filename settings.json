@@ -16,6 +16,7 @@
         "${workspaceFolder}/lingos",
         "${workspaceFolder}/typings",
         "${workspaceFolder}/aos/typings",
+        "${workspaceFolder}/lingos/typings",
     ],
     "python.analysis.diagnosticSeverityOverrides": {
         "reportMissingModuleSource": "none",
@@ -149,5 +150,6 @@
         "agikit",
         "lingos",
         "deeplingos"
-    ]
+    ],
+    "python.REPL.enableREPLSmartSend": false
 }
