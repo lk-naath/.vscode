@@ -56,7 +56,7 @@
             "name": "lingos",
             "type": "debugpy",
             "request": "launch",
-            "module": "agent",
+            "module": "router",
             "cwd": "/Users/uttam/Desktop/mico/lingos",
             "console": "integratedTerminal",
             "python": "/Users/uttam/.pyenv/versions/.agi/bin/python",
