@@ -130,6 +130,7 @@
     "lark.server.trace": "off",
 
     "cSpell.words": [
+        "regos",
         "asyncop",
         "mathjs",
         "MULTISELECTRECORDLOOKUP",
