@@ -11,7 +11,6 @@
     "python.analysis.typeCheckingMode": "off",
     "python.analysis.stubPath": "typings",
     "python.analysis.extraPaths": [
-        "${workspaceFolder}",
         "${workspaceFolder}/aos",
         "${workspaceFolder}/lingos",
         "${workspaceFolder}/typings",
@@ -22,7 +21,7 @@
         "reportMissingModuleSource": "none",
         "reportMissingTypeStubs": "warning"
     },
-    "tree-sitter-vscode.debug": true,
+    "tree-sitter-vscode.debug": false,
     "tree-sitter-vscode.languageConfigs": [
         {
             "lang": "deeplingua",
@@ -62,6 +61,7 @@
 
     "files.exclude": {
         "**/.git": true,
+        "**/.vscode/.git": true,
         "**/.DS_Store": true,
         "**/__pycache__": true,
         "**/.pytest_cache": true,
@@ -91,6 +91,7 @@
 
     "search.exclude": {
         "**/.git": true,
+        "**/.vscode/.git": true,
         "**/.DS_Store": true,
         "**/__pycache__": true,
         "**/.pytest_cache": true,
@@ -123,6 +124,7 @@
         "**/.git/objects/**": true,
         "**/.git/subtree-cache/**": true,
         "**/.hg/store/**": true,
+        "**/.vscode/.git/**": true,
         "**/.DS_Store": true,
         "**/__pycache__/**": true,
         "**/.pytest_cache/**": true,
@@ -185,5 +187,8 @@
         "lingos",
         "deeplingos"
     ],
-    "python.REPL.enableREPLSmartSend": false
+    "python.REPL.enableREPLSmartSend": false,
+    "git.ignoredRepositories": [
+        "/Users/uttam/Desktop/mico/.vscode/.git"
+    ]
 }
