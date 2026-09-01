@@ -26,7 +26,14 @@
         "${workspaceFolder}/**/*.py",
         "${workspaceFolder}/**/*.pyi"
     ],
-
+    "tree-sitter-vscode.debug": true,
+    "tree-sitter-vscode.languageConfigs": [
+        {
+            "lang": "deeplingua",
+            "parser": "/Users/uttam/Desktop/mico/tree-sitter-deeplingua/tree-sitter-deeplingua.wasm",
+            "highlights": "/Users/uttam/Desktop/mico/tree-sitter-deeplingua/queries/highlights.scm"
+        }
+    ],
     "python-envs.defaultEnvManager": "ms-python.python:system",
     "python-envs.pythonProjects": [],
 
@@ -120,9 +127,15 @@
         "**/.yarn/**": true,
         "**/.env.*/**": true
     },
+    "activationEvents": [
+        "onLanguage:deeplingua"
+    ],
     "files.associations": {
         "*.lark": "lark",
-        "*.txt": "markdown"
+        "*.txt": "markdown",
+        "*.rego": "rego",
+        "*.lingo": "deeplingua",
+        "*.lingua": "deeplingua",
     },
 
     "lark.server.enabled": true,
