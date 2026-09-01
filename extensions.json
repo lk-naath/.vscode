@@ -3,7 +3,6 @@
         "usernamehw.errorlens",
         "pkief.material-icon-theme",
         "ms-vscode.remote-explorer",
-        "vscodevim.vim",
         "streetsidesoftware.code-spell-checker",
         "eamodio.gitlens",
         "ms-python.vscode-pylance",
@@ -14,6 +13,7 @@
         "formulahendry.auto-close-tag",
         "ms-vscode.makefile-tools",
         "aaron-bond.better-comments",
-        "tsandall.opa"
+        "tsandall.opa",
+        "asvetliakov.vscode-neovim"
     ]
 }

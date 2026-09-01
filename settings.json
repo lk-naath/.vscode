@@ -5,7 +5,7 @@
     "python.testing.pytestArgs": [
         "tests"
     ],
-    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.diagnosticMode": "openFilesOnly",
     "python.analysis.autoSearchPaths": true,
     "python.analysis.useLibraryCodeForTypes": true,
     "python.analysis.typeCheckingMode": "off",
@@ -22,10 +22,6 @@
         "reportMissingModuleSource": "none",
         "reportMissingTypeStubs": "warning"
     },
-    "python.analysis.include": [
-        "${workspaceFolder}/**/*.py",
-        "${workspaceFolder}/**/*.pyi"
-    ],
     "tree-sitter-vscode.debug": true,
     "tree-sitter-vscode.languageConfigs": [
         {
@@ -34,8 +30,35 @@
             "highlights": "/Users/uttam/Desktop/mico/tree-sitter-deeplingua/queries/highlights.scm"
         }
     ],
-    "python-envs.defaultEnvManager": "ms-python.python:system",
-    "python-envs.pythonProjects": [],
+    "python.analysis.exclude": [
+        "**/.*",
+        "**/.git/**",
+        "**/.DS_Store",
+        "**/__pycache__/**",
+        "**/.pytest_cache/**",
+        "**/node_modules/**",
+        "**/schema_files/**",
+        "**/data-files/**",
+        "**/.next/**",
+        "**/.python-version",
+        "**/.coverage",
+        "**/.coveragerc",
+        "**/past-reports/**",
+        "**/.ruff_cache/**",
+        "**/log/**",
+        "**/logs/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/vocore.egg-info/**",
+        "**/.idea/**",
+        "**/venv/**",
+        "**/.venv/**",
+        "**/htmlcov/**",
+        "**/.mypy_cache/**",
+        "**/.ci_output/**",
+        "**/.yarn/**",
+        "**/.env.*"
+    ],
 
     "files.exclude": {
         "**/.git": true,
