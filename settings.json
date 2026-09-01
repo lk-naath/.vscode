@@ -150,9 +150,6 @@
         "**/.yarn/**": true,
         "**/.env.*/**": true
     },
-    "activationEvents": [
-        "onLanguage:deeplingua"
-    ],
     "files.associations": {
         "*.lark": "lark",
         "*.txt": "markdown",
