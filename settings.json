@@ -14,14 +14,6 @@
         "reportMissingModuleSource": "none",
         "reportMissingTypeStubs": "warning"
     },
-    "tree-sitter-vscode.debug": false,
-    "tree-sitter-vscode.languageConfigs": [
-        {
-            "lang": "deeplingua",
-            "parser": "/Users/uttam/Desktop/mico/tree-sitter-deeplingua/tree-sitter-deeplingua.wasm",
-            "highlights": "/Users/uttam/Desktop/mico/tree-sitter-deeplingua/queries/highlights.scm"
-        }
-    ],
     "python.analysis.exclude": [
         "**/.*",
         "**/.git/**",
