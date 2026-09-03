@@ -9,13 +9,7 @@
     "python.analysis.autoSearchPaths": true,
     "python.analysis.useLibraryCodeForTypes": true,
     "python.analysis.typeCheckingMode": "off",
-    "python.analysis.extraPaths": [
-        "${workspaceFolder}/aos",
-        "${workspaceFolder}/lingos",
-        "${workspaceFolder}/typings",
-        "${workspaceFolder}/aos/typings",
-        "${workspaceFolder}/lingos/typings",
-    ],
+    "python.analysis.useNearestConfiguration": true,
     "python.analysis.diagnosticSeverityOverrides": {
         "reportMissingModuleSource": "none",
         "reportMissingTypeStubs": "warning"
@@ -166,25 +160,7 @@
     "cSpell.words": [
         "regos",
         "asyncop",
-        "mathjs",
-        "MULTISELECTRECORDLOOKUP",
-        "vocore",
-        "Lekhnath",
-        "Parajuli",
-        "Vishu",
-        "Mishra",
-        "mico",
-        "micore",
-        "micoagent",
-        "micoai",
-        "micoid",
-        "DEEP_SEEK_API_KEY",
-        "GROQ_API_KEY",
-        "GROK_API_KEY",
-        "Agentify",
-        "agikit",
         "lingos",
-        "deeplingos"
     ],
     "python.REPL.enableREPLSmartSend": false,
     "git.ignoredRepositories": [
