@@ -15,6 +15,10 @@
         "tests"
     ],
 
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/lingos",
+    ],
+
     "files.exclude": {
         "**/.git": true,
         "**/.DS_Store": true,
