@@ -1,0 +1,115 @@
+{
+    "folders": [
+        { "path": "../lingos" }
+    ],
+
+    "settings": {
+        "python.analysis.diagnosticMode": "openFilesOnly",
+        "python.analysis.autoSearchPaths": true,
+        "python.analysis.useLibraryCodeForTypes": true,
+
+        "python.analysis.diagnosticSeverityOverrides": {
+            "reportMissingModuleSource": "none",
+            "reportMissingTypeStubs": "warning"
+        },
+
+        "files.exclude": {
+            "**/.git": true,
+            "**/.DS_Store": true,
+            "**/__pycache__": true,
+            "**/.pytest_cache": true,
+            "**/node_modules": true,
+            "**/schema_files": true,
+            "**/data-files": true,
+            "**/.next": true,
+            "**/.python-version": true,
+            "**/.coverage": true,
+            "**/.coveragerc": true,
+            "**/past-reports": true,
+            "**/.ruff_cache": true,
+            "**/log": true,
+            "**/logs": true,
+            "**/dist": true,
+            "**/build": true,
+            "**/vocore.egg-info": true,
+            "**/.idea": true,
+            "**/venv": true,
+            "**/.venv": true,
+            "**/htmlcov": true,
+            "**/.mypy_cache": true,
+            "**/.ci_output": true,
+            "**/.yarn": true,
+            "**/.env.*": true
+        },
+
+        "search.exclude": {
+            "**/.git": true,
+            "**/.DS_Store": true,
+            "**/__pycache__": true,
+            "**/.pytest_cache": true,
+            "**/node_modules": true,
+            "**/schema_files": true,
+            "**/data-files": true,
+            "**/.next": true,
+            "**/.python-version": true,
+            "**/.coverage": true,
+            "**/.coveragerc": true,
+            "**/past-reports": true,
+            "**/.ruff_cache": true,
+            "**/log": true,
+            "**/logs": true,
+            "**/dist": true,
+            "**/build": true,
+            "**/vocore.egg-info": true,
+            "**/certs": true,
+            "**/.idea": true,
+            "**/venv": true,
+            "**/.venv": true,
+            "**/htmlcov": true,
+            "**/.mypy_cache": true,
+            "**/.ci_output": true,
+            "**/.yarn": true,
+            "**/.env.*": true
+        },
+
+        "files.watcherExclude": {
+            "**/.git/objects/**": true,
+            "**/.git/subtree-cache/**": true,
+            "**/.hg/store/**": true,
+            "**/__pycache__/**": true,
+            "**/.pytest_cache/**": true,
+            "**/node_modules/**": true,
+            "**/schema_files/**": true,
+            "**/data-files/**": true,
+            "**/.next/**": true,
+            "**/.ruff_cache/**": true,
+            "**/log/**": true,
+            "**/logs/**": true,
+            "**/dist/**": true,
+            "**/build/**": true,
+            "**/.venv/**": true,
+            "**/htmlcov/**": true,
+            "**/.mypy_cache/**": true,
+            "**/.ci_output/**": true,
+            "**/.yarn/**": true,
+            "**/certs/**": true
+        },
+
+        "files.associations": {
+            "*.lark": "lark",
+            "*.txt": "markdown",
+            "*.rego": "rego",
+            "*.lingo": "deeplingua",
+            "*.lingua": "deeplingua"
+        },
+
+        "lark.server.enabled": true,
+        "lark.server.arguments": [
+            "--log-level",
+            "INFO"
+        ],
+        "lark.server.trace": "off",
+
+        "python.REPL.enableREPLSmartSend": false
+    }
+}
