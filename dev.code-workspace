@@ -7,7 +7,7 @@
         "python.analysis.diagnosticMode": "openFilesOnly",
         "python.analysis.autoSearchPaths": true,
         "python.analysis.useLibraryCodeForTypes": true,
-
+        "python.analysis.useNearestConfiguration": true,
         "python.analysis.diagnosticSeverityOverrides": {
             "reportMissingModuleSource": "none",
             "reportMissingTypeStubs": "warning"
