@@ -22,7 +22,7 @@
             "args": [],
             "cwd": "/Users/uttam/Desktop/mico/aos",
             "console": "integratedTerminal",
-            "python": "/Users/uttam/.pyenv/versions/.agi/bin/python"
+            "python": "/Users/lk.naath/.pyenv/versions/.agi/bin/python"
         },
         {
             "type": "debugpy",
@@ -34,7 +34,7 @@
             "args": [],
             "cwd": "/Users/uttam/Desktop/mico/aos",
             "console": "integratedTerminal",
-            "python": "/Users/uttam/.pyenv/versions/.agi/bin/python",
+            "python": "/Users/lk.naath/.pyenv/versions/.agi/bin/python",
             "stopOnEntry": false,
             "showReturnValue": true,
         },
@@ -46,7 +46,7 @@
             "args": ["-k", "test_profiler"],
             "cwd": "/Users/uttam/Desktop/mico/aos",
             "console": "integratedTerminal",
-            "python": "/Users/uttam/.pyenv/versions/.agi/bin/python",
+            "python": "/Users/lk.naath/.pyenv/versions/.agi/bin/python",
             "justMyCode": false,
             "subProcess": true,
             "purpose": ["debug-test"],
@@ -59,7 +59,7 @@
             "module": "agent",
             "cwd": "/Users/uttam/Desktop/mico/lingos",
             "console": "integratedTerminal",
-            "python": "/Users/uttam/.pyenv/versions/.agi/bin/python",
+            "python": "/Users/lk.naath/.pyenv/versions/.agi/bin/python",
             "justMyCode": false,
             "subProcess": true,
         }

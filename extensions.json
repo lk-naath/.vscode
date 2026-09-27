@@ -2,7 +2,6 @@
     "recommendations": [
         "usernamehw.errorlens",
         "pkief.material-icon-theme",
-        "ms-vscode.remote-explorer",
         "streetsidesoftware.code-spell-checker",
         "eamodio.gitlens",
         "ms-python.vscode-pylance",
