@@ -10,7 +10,7 @@
     "workbench.layoutControl.enabled": false,
     "workbench.activityBar.location": "hidden",
     "terminal.explorerKind": "external",
-     "terminal.external.osxExec": "iTerm.app",
+    "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.gpuAcceleration": "on",
     "window.commandCenter": false,
     "extensions.ignoreRecommendations": true,
