@@ -13,7 +13,6 @@
             "console": "integratedTerminal",
             "python": "${PYTHON}"
         },
-
         {
             "type": "debugpy",
             "name": "agi",
@@ -62,7 +61,19 @@
             "python": "/Users/lk.naath/.pyenv/versions/.agi/bin/python",
             "justMyCode": false,
             "subProcess": true,
-        }
+        },
+        {
+            "name": "odoo",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "odoo-bin",
+            "args": ["-c", "odoo.conf"],
+            "cwd": "/Users/lk.naath/Desktop/odoo/odoo17",
+            "console": "integratedTerminal",
+            "python": "/Users/lk.naath/.pyenv/versions/.agi/bin/python",
+            "justMyCode": false,
+            "subProcess": true,
+        },
     ],
     // "compounds": [
     //     {
