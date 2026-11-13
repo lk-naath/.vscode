@@ -72,7 +72,8 @@
     "editor.acceptSuggestionOnEnter": "off",
     "editor.inlineSuggest.enabled": false,
     "files.associations": {
-        "*.rego": "rego"
+        "*.rego": "rego",
+        "*.md.j2": "jinja-md"
     },
     "editor.quickSuggestions": {
         "other": true,
